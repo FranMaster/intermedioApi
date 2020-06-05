@@ -1,6 +1,6 @@
 const express = require('express');
 let app = express();
-let puerto = 3000;
+let puerto = process.env.PORT || 3000;
 
 const axios = require('axios');
 
